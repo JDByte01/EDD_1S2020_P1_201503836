@@ -1,6 +1,4 @@
 Universidad De San Carlos De Guatemala
-============
-
 Facultad De Ingenieria
 Escuela de Ciencias y Sistemas
 
