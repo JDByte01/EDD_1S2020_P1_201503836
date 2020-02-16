@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1581805288 source:c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\src\nodoarchivo.cpp
+1581827421 source:c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\src\nodoarchivo.cpp
 	"NodoArchivo.h"
 
-1581805241 c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\include\nodoarchivo.h
+1581818197 c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\include\nodoarchivo.h
 	<string.h>
 	<iostream>
 
@@ -27,4 +27,34 @@
 1581826910 source:c:\users\josed\documents\usac\edd\2020\uedit\src\listacircular.cpp
 	"ListaCircular.h"
 	<iostream>
+
+1581826910 source:c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\src\listacircular.cpp
+	"ListaCircular.h"
+	<iostream>
+
+1581825220 c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\include\listacircular.h
+	<string.h>
+	<iostream>
+	<NodoArchivo.h>
+
+1581838118 source:c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\src\nodocaracter.cpp
+	"NodoCaracter.h"
+
+1581830881 c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\include\nodocaracter.h
+	<string.h>
+	<iostream>
+
+1581839295 source:c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\main.cpp
+	<iostream>
+	<string.h>
+	"ListaCircular.h"
+	"NodoArchivo.h"
+	"ListaDoble.h"
+	"NodoCaracter.h"
+
+1581839026 c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\include\listadoble.h
+	"NodoCaracter.h"
+
+1581839236 source:c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\src\listadoble.cpp
+	"ListaDoble.h"
 

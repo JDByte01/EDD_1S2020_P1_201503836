@@ -9,16 +9,18 @@ using namespace std;
 
 int main()
 {
+
+
+    cout << "[EDD]HT1_201503836" << endl;
+
+    //Probar método de lista circular
+
     ListaCircular *archivos = new ListaCircular();
     NodoArchivo *a1 = new NodoArchivo();
     NodoArchivo *a2 = new NodoArchivo();
     NodoArchivo *a3 = new NodoArchivo();
     NodoArchivo *a4 = new NodoArchivo();
     NodoArchivo *a5 = new NodoArchivo();
-
-    cout << "[EDD]HT1_201503836" << endl;
-
-    //Probar método de lista circular
 
     a1->setId(1);
     a1->setNombre("archivo1.txt");
@@ -52,6 +54,50 @@ int main()
 
     archivos->imprimir();
 
+    //Probar metodo de lista doble enlazada
+
+    ListaDoble *texto = new ListaDoble();
+    NodoCaracter* c1 = new NodoCaracter();
+    NodoCaracter* c2 = new NodoCaracter();
+    NodoCaracter* c3 = new NodoCaracter();
+    NodoCaracter* c4 = new NodoCaracter();
+    NodoCaracter* c5 = new NodoCaracter();
+    NodoCaracter* c6 = new NodoCaracter();
+    NodoCaracter* c7 = new NodoCaracter();
+
+    c1->setCaracter('1');
+    c1->setAscii(int('1'));
+
+    c2->setCaracter('0');
+    c2->setAscii(int('0'));
+
+    c3->setCaracter('0');
+    c3->setAscii(int('0'));
+
+    c4->setCaracter(' ');
+    c4->setAscii(int(' '));
+
+    c5->setCaracter('p');
+    c5->setAscii(int('p'));
+
+    c6->setCaracter('t');
+    c6->setAscii(int('t'));
+
+    c7->setCaracter('s');
+    c7->setAscii(int('s'));
+
+    texto->agregar(c1);
+    texto->agregar(c2);
+    texto->agregar(c3);
+    texto->agregar(c4);
+    texto->agregar(c5);
+    texto->agregar(c6);
+    texto->agregar(c7);
+
+    texto->imprimir("forward");
+    texto->imprimir("backwar");
+
+    //Probar Metodo de Pila
 
     return 0;
 }

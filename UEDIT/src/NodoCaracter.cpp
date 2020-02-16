@@ -14,9 +14,9 @@ NodoCaracter::~NodoCaracter()
 }
 
 void NodoCaracter::imprimir(){
-
+    cout << "\t|-> [" << this->ascii << "] " << this->caracter << endl;
 }
 
 string NodoCaracter::graphviz(){
-    return "-";
+    return "\t|-> [" + to_string(this->ascii) + "] " + this->caracter;
 }
