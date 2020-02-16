@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1581805288 source:c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\src\nodoarchivo.cpp
+	"NodoArchivo.h"
+
+1581805241 c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\include\nodoarchivo.h
+	<string.h>
+	<iostream>
+
+1581827421 source:c:\users\josed\documents\usac\edd\2020\uedit\src\nodoarchivo.cpp
+	"NodoArchivo.h"
+
+1581818197 c:\users\josed\documents\usac\edd\2020\uedit\include\nodoarchivo.h
+	<string.h>
+	<iostream>
+
+1581826857 source:c:\users\josed\documents\usac\edd\2020\uedit\main.cpp
+	<iostream>
+	<string.h>
+	"ListaCircular.h"
+	"NodoArchivo.h"
+
+1581825220 c:\users\josed\documents\usac\edd\2020\uedit\include\listacircular.h
+	<string.h>
+	<iostream>
+	<NodoArchivo.h>
+
+1581826910 source:c:\users\josed\documents\usac\edd\2020\uedit\src\listacircular.cpp
+	"ListaCircular.h"
+	<iostream>
+
