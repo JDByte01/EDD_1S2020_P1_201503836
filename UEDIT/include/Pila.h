@@ -12,12 +12,13 @@ class Pila
         void push(NodoLog* nodo);
         void pop();
         NodoLog* peek();
+        bool estaVacio();
         void imprimir();
 
     protected:
 
     private:
-        NodoLog* inicio;
+        NodoLog* ultimo;
         int contador;
 };
 

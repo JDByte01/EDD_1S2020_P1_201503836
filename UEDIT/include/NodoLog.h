@@ -1,6 +1,10 @@
 #ifndef NODOLOG_H
 #define NODOLOG_H
 
+#include <string.h>
+#include <iostream>
+using namespace std;
+
 class NodoLog
 {
     public:

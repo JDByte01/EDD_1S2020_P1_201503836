@@ -44,17 +44,29 @@
 	<string.h>
 	<iostream>
 
-1581839295 source:c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\main.cpp
+1581875582 source:c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\main.cpp
 	<iostream>
 	<string.h>
 	"ListaCircular.h"
 	"NodoArchivo.h"
 	"ListaDoble.h"
 	"NodoCaracter.h"
+	"Pila.h"
+	"NodoLog.h"
 
 1581839026 c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\include\listadoble.h
 	"NodoCaracter.h"
 
-1581839236 source:c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\src\listadoble.cpp
+1581839546 source:c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\src\listadoble.cpp
 	"ListaDoble.h"
+
+1581841537 source:c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\src\nodolog.cpp
+	"NodoLog.h"
+
+1581876011 c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\include\nodolog.h
+	<string.h>
+	<iostream>
+
+1581876058 c:\users\josed\documents\usac\edd\2020\edd_1s2020_p1_201503836\uedit\include\pila.h
+	"NodoLog.h"
 

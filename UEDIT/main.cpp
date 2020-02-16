@@ -4,6 +4,8 @@
 #include "NodoArchivo.h"
 #include "ListaDoble.h"
 #include "NodoCaracter.h"
+#include "Pila.h"
+#include "NodoLog.h"
 
 using namespace std;
 
@@ -98,6 +100,50 @@ int main()
     texto->imprimir("backwar");
 
     //Probar Metodo de Pila
+    Pila* registros = new Pila();
+    NodoLog *l1 = new NodoLog();
+    NodoLog *l2 = new NodoLog();
+    NodoLog *l3 = new NodoLog();
+    NodoLog *l4 = new NodoLog();
+    NodoLog *l5 = new NodoLog();
+
+    l1->setPalabraB("Universidad");
+    l1->setPalabraR("Palabra1");
+    l1->setEstado("Revertido");
+    l1->setPalabra("null");
+    l1->setPosicion(0);
+
+    l2->setPalabraB("Universidad");
+    l2->setPalabraR("Palabra2");
+    l2->setEstado("Revertido");
+    l2->setPalabra("null");
+    l2->setPosicion(0);
+
+    l3->setPalabraB("de");
+    l3->setPalabraR("Palabra3");
+    l3->setEstado("No Revertido");
+    l3->setPalabra("null");
+    l3->setPosicion(0);
+
+    l4->setPalabraB("San");
+    l4->setPalabraR("Palabra4");
+    l4->setEstado("Revertido");
+    l4->setPalabra("null");
+    l4->setPosicion(0);
+
+    l5->setPalabraB("Carlos");
+    l5->setPalabraR("Palabra5");
+    l5->setEstado("No Revertido");
+    l5->setPalabra("null");
+    l5->setPosicion(0);
+
+    registros->push(l1);
+    registros->push(l2);
+    registros->push(l3);
+    registros->push(l4);
+    registros->push(l5);
+
+    registros->imprimir();
 
     return 0;
 }
