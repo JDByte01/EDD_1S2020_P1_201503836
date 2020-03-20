@@ -38,11 +38,15 @@
 		<Unit filename="include/ListaDoble.h" />
 		<Unit filename="include/NodoArchivo.h" />
 		<Unit filename="include/NodoCaracter.h" />
+		<Unit filename="include/NodoLog.h" />
+		<Unit filename="include/Pila.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/ListaCircular.cpp" />
 		<Unit filename="src/ListaDoble.cpp" />
 		<Unit filename="src/NodoArchivo.cpp" />
 		<Unit filename="src/NodoCaracter.cpp" />
+		<Unit filename="src/NodoLog.cpp" />
+		<Unit filename="src/Pila.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

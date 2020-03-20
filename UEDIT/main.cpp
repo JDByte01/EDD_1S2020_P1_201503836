@@ -145,5 +145,8 @@ int main()
 
     registros->imprimir();
 
+    cout << "Presionar cualquier tecla para salir" << endl;
+
+    cin.get();
     return 0;
 }
